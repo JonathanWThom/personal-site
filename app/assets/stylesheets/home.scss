@@ -14,7 +14,7 @@ ul {
     text-align: center;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
 }
 
@@ -29,10 +29,10 @@ li {
 
 .section-title {
   position: absolute;
-  top: calc(50% - 24px); //24px is font size of H1 I assume
+  top: calc(50% - 24px);
   left: 0;
   text-align: center;
-  width: 100%; 
+  width: 100%;
   display: none;
 }
 
@@ -49,3 +49,5 @@ li img {
   height: 50px;
   padding-left: 10px;
 }
+
+//center header
