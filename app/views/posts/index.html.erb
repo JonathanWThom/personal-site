@@ -1,0 +1,12 @@
+<div class="blog header">
+  <p>Blog</p>
+</div>
+
+<% @posts.each do |post| %>
+  <div class="post-title">
+    <%= post.title %>
+  </div>
+  <div class="post-preview">
+    asdflkjasdlfkjasdlfkjasldfkjalsdkfjlaskdjflasjdf<%= link_to '...', post_path(post) %>
+  </div>
+<% end %>
