@@ -27,6 +27,18 @@ li {
   position: relative;
 }
 
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
 .section-title {
   position: absolute;
   top: calc(50% - 24px);
@@ -49,5 +61,3 @@ li img {
   height: 50px;
   padding-left: 10px;
 }
-
-//center header
