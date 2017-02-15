@@ -9,6 +9,17 @@
   </head>
 
   <body>
+    <div class="row header">
+      <div class="intro col-sm-12">
+        <h1><%= link_to "Jonathan Thom", root_path %></h1>
+        <ul>
+          <li><%= mail_to('jonathan.thom1990@gmail.com', image_tag('email.png'), encode: "hex") %></li>
+          <li><%= link_to image_tag('github.png'), 'https://github.com/JonathanWThom' %></li>
+          <li><%= link_to image_tag('twitter.png'), 'https://twitter.com/JonathanWThom' %></li>
+          <li><%= link_to image_tag('instagram.png'), 'https://www.instagram.com/jwthom/' %></li>
+        </ul>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
