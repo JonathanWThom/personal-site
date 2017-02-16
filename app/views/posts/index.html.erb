@@ -2,11 +2,15 @@
   <p>Blog</p>
 </div>
 
-<% @posts.each do |post| %>
-  <div class="post-title">
-    <%= post.title %>
-  </div>
-  <div class="post-preview">
-    asdflkjasdlfkjasdlfkjasldfkjalsdkfjlaskdjflasjdf<%= link_to '...', post_path(post) %>
-  </div>
-<% end %>
+<div class="container">
+  <% @posts.each do |post| %>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= post.title %></h3>
+      </div>
+      <div class="panel-body">
+        <%= link_to truncate(post.content, length: 200, separator: ' '), post_path(post) %>
+      </div>
+    </div>
+  <% end %>
+</div>
