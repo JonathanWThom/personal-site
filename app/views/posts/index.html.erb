@@ -1,12 +1,12 @@
-<div class="blog header">
-  <p>Blog</p>
-</div>
+<% content_for(:title, "Jonathan Thom | Blog") %>
+
+<% content_for(:page_title, "Blog") %>
 
 <div class="container">
   <% @posts.each do |post| %>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title"><%= post.title %></h3>
+        <h3 class="panel-title"><%= post.title %> - <%= post.date %></h3>
       </div>
       <div class="panel-body">
         <%= link_to truncate(post.content, length: 200, separator: ' '), post_path(post) %>

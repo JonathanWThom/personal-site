@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PersonalSite</title>
+    <title><%= yield(:title) %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -19,6 +19,9 @@
           <li><%= link_to image_tag('instagram.png'), 'https://www.instagram.com/jwthom/' %></li>
         </ul>
       </div>
+    </div>
+    <div class="page-title">
+      <h2><%= yield(:page_title) %></h2>
     </div>
     <%= yield %>
   </body>
