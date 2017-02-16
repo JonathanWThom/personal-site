@@ -1,6 +1,8 @@
 .image-panel img {
   width: 100%;
   position: relative;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .row.no-gutter {
@@ -8,8 +10,8 @@
   margin-right: 0;
 }
 
-.row.no-gutter [class*='col-']:not(:first-child),
-.row.no-gutter [class*='col-']:not(:last-child) {
+.row.no-gutter [class*='col-'],
+.row.no-gutter [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -21,6 +23,9 @@
   text-align: center;
   width: 100%;
   display: none;
+  h1 {
+    color: white;
+  }
 }
 
 .image-panel img:hover {

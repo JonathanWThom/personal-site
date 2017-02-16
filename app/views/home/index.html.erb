@@ -1,21 +1,27 @@
 <div class="row no-gutter">
-  <div class="col-sm-4 image-panel">
-    <%= image_tag 'whiteboard.jpg' %>
-    <div class="section-title">
-      <h1>Projects</h1>
+  <%= link_to posts_path do %>
+    <div class="col-sm-4 image-panel">
+      <%= image_tag 'whiteboard.jpg' %>
+      <div class="section-title">
+        <h1>Projects</h1>
+      </div>
     </div>
-  </div>
-  <!-- this is not right, needs to wrap it but keep styling -->
+  <% end %>
+  <!-- needs styling -->
+  <%= link_to posts_path do %>
   <div class="col-sm-4 image-panel">
-    <%= link_to image_tag('olympics.jpg'), posts_path %>
+    <%= image_tag('olympics.jpg') %>
     <div class="section-title">
       <h1>Blog</h1>
     </div>
   </div>
-  <div class="col-sm-4 image-panel">
-    <%= image_tag 'jonathan.jpg' %>
-    <div class="section-title">
-      <h1>About Me</h1>
+  <% end %>
+  <%= link_to posts_path do %>
+    <div class="col-sm-4 image-panel">
+      <%= image_tag 'jonathan.jpg' %>
+      <div class="section-title">
+        <h1>About Me</h1>
+      </div>
     </div>
-  </div>
+  <% end %>
 </div>
