@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   root :to => 'home#index'
-  resources :posts #as blog
+  resources :posts, :path => 'blog'
 end
