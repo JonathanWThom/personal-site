@@ -3,3 +3,14 @@
 <div class="page-title">
   <h2><%= link_to 'Blog', posts_path %></h2>
 </div>
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title"><%= @post.title %></h3>
+      <h3 class="panel-title"><%= @post.date %></h3>
+    </div>
+    <div class="panel-body">
+      <p><%= @post.content %></p>
+    </div>
+  </div>
+</div>
