@@ -14,6 +14,7 @@ gem "paperclip", "~> 5.0.0"
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 gem 'devise'
+gem 'formtastic', '~> 3.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
