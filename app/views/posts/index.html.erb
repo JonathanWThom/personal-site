@@ -4,15 +4,17 @@
 
 <div class="container">
   <div class="row">
-    <% @posts.each do |post| %>
-      <div class="panel panel-default col-sm-6">
-        <div class="panel-heading">
-          <h3 class="panel-title"><%= post.title %> - <%= post.date %></h3>
-        </div>
-        <div class="panel-body">
-          <%= link_to truncate(post.content, length: 200, separator: ' '), post_path(post) %>
-        </div>
-      </div>
-    <% end %>
+    <div class="col-sm-2">
+      <h3 class="text-left">Other Posts</h3>
+      <% @posts.each do |post| %>
+        <p><%= link_to post.title, post_path(post) %></p>
+      <% end %>
+    </div>
+    <div class="featured col-sm-10">
+      <h2><%= @featured.title %></h2>
+      <h4><%= @featured.date %></h4>
+      <hr>
+      <p><%= @featured.content %></p>
+    </div>
   </div>
 </div>
