@@ -1,12 +1,11 @@
-Add admin privleges and authentication
-mailer list for new posts?
-build detail pages for posts, projects, about
-styling to about and posts all/detail
-ernie pic
-make styling consistent
+add posts
+add projects
+fix posts upload form - make text attribute w/ migration
+fix projects styling
 full testing coverage
+s3 to deploy with photos
+better nav bar?
+photos for posts? link to in s3
+get its own domain
 
-add photos to posts via console upload
-
-
-will have to use s3 to deploy with photos!!
+mailer list for new posts?
