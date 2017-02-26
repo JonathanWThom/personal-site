@@ -38,7 +38,9 @@ body {
 }
 
 .header {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: #a33232;
+  margin-bottom: -20px;
 }
 
 
@@ -53,7 +55,7 @@ li img:hover {
 }
 
 h1 a {
-  color: black;
+  color: white;
 }
 
 h1 a:hover {
