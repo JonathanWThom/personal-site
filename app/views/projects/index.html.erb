@@ -5,12 +5,16 @@
 </div>
 
 <div class="container">
-  <% @recent.each do |project| %>
-    <p><%= link_to project['name'], project['html_url'] %></p>
+  <% if @recent.kind_of?(Array) %>
+    <% @recent.each do |project| %>
+      <p><%= link_to project['name'], project['html_url'] %></p>
+    <% end %>
   <% end %>
 
-  <% @top_starred.each do |project| %>
-    <p><%= link_to project['name'], project['html_url'] %></p>
+  <% if @top_starred.kind_of?(Array) %>
+    <% @top_starred.each do |project| %>
+      <p><%= link_to project['name'], project['html_url'] %></p>
+    <% end %>
   <% end %>
 
   <h1 class="text-center">Featured Sites</h1>
