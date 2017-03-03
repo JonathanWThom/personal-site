@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/features/admin_path_spec.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/features/admin_path_spec.rb": [
         1,
         null,
         1,
@@ -38,11 +38,23 @@
         1,
         1,
         1,
+        0,
+        null,
+        null,
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/rails_helper.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -128,17 +140,17 @@
         1,
         1,
         1,
-        5,
+        3,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/environment.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/application.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/application.rb": [
         1,
         null,
         1,
@@ -165,12 +177,12 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/boot.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/spring.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/spring.rb": [
         null,
         null,
         null,
@@ -178,7 +190,7 @@
         null,
         5
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/environments/test.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/environments/test.rb": [
         1,
         null,
         null,
@@ -222,10 +234,10 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/active_admin.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/active_admin.rb": [
         1,
         1,
-        10,
+        12,
         null,
         null,
         null,
@@ -513,16 +525,16 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/controllers/application_controller.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/helpers/application_helper.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/application_controller_renderer.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -530,7 +542,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/assets.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -543,7 +555,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/backtrace_silencers.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -552,14 +564,14 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/cookies_serializer.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/devise.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -835,13 +847,13 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/filter_parameter_logging.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/formtastic.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/formtastic.rb": [
         null,
         null,
         null,
@@ -956,7 +968,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/inflections.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -974,13 +986,13 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/mime_types.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/new_framework_defaults.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/new_framework_defaults.rb": [
         null,
         null,
         null,
@@ -1006,12 +1018,21 @@
         null,
         1
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/session_store.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/paperclip.rb": [
+        1,
+        1
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/initializers/wrap_parameters.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/social_share_button.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -1027,7 +1048,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/config/routes.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/config/routes.rb": [
         1,
         1,
         1,
@@ -1037,7 +1058,7 @@
         1,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/models/admin.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/models/admin.rb": [
         1,
         null,
         null,
@@ -1045,12 +1066,12 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/models/application_record.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/admin/admin.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/admin/admin.rb": [
         1,
         1,
         null,
@@ -1080,10 +1101,10 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/admin/dashboard.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/admin/dashboard.rb": [
         1,
         null,
-        7,
+        8,
         null,
         3,
         1,
@@ -1115,7 +1136,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/admin/post.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/admin/post.rb": [
         1,
         null,
         null,
@@ -1134,12 +1155,12 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/models/post.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/models/post.rb": [
         1,
         1,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
@@ -1148,7 +1169,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/admin/project.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/admin/project.rb": [
         1,
         null,
         null,
@@ -1178,7 +1199,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/models/project.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/models/project.rb": [
         1,
         1,
         1,
@@ -1187,87 +1208,91 @@
         1,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/channels/application_cable/channel.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/channels/application_cable/connection.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/controllers/about_controller.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/controllers/about_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/controllers/home_controller.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/controllers/home_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/controllers/posts_controller.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/controllers/posts_controller.rb": [
         1,
         1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/controllers/projects_controller.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/jobs/application_job.rb": [
-        1,
-        null
-      ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/mailers/application_mailer.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/JonathanThom/Documents/Code/personal-site/app/services/github.rb": [
-        1,
-        1,
-        2,
-        2,
-        184,
-        2,
+        0,
         0,
         0,
         null,
         null,
-        null,
         1,
-        2,
-        2,
-        184,
-        2,
+        0,
         0,
         0,
         null,
+        null
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/app/controllers/projects_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/factories/admin.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/app/jobs/application_job.rb": [
+        1,
+        null
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/app/services/github.rb": [
+        1,
+        1,
+        1,
+        1,
+        92,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        92,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/spec/factories/admin.rb": [
         1,
         1,
         1,
@@ -1275,7 +1300,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/factories/post.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/factories/post.rb": [
         1,
         1,
         1,
@@ -1284,7 +1309,7 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/factories/project.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/factories/project.rb": [
         1,
         1,
         1,
@@ -1297,18 +1322,18 @@
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/support/factory_girl.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/support/factory_girl.rb": [
         1,
         1,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/support/share_db_connection.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/support/share_db_connection.rb": [
         1,
         1,
         1,
         null,
         1,
-        247,
+        240,
         null,
         null,
         null,
@@ -1316,58 +1341,58 @@
         null,
         1
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/features/posts_path_spec.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/features/posts_path_spec.rb": [
         1,
         null,
-        1,
-        1,
-        1,
-        2,
         null,
-        1,
-        1,
-        1,
         null,
-        null
-      ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/features/projects_path_spec.rb": [
-        1,
         null,
-        1,
-        1,
-        1,
-        1,
-        1,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/models/admin_spec.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/features/projects_path_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/spec/models/admin_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/models/post_spec.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/models/post_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
-        2,
-        null
-      ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/models/project_spec.rb": [
-        1,
-        null,
-        1,
-        2,
         2,
         2,
         2,
         null
       ],
-      "/Users/JonathanThom/Documents/Code/personal-site/spec/services/github_spec.rb": [
+      "/Users/JonathanThom/Desktop/personal-site/spec/models/project_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/JonathanThom/Desktop/personal-site/spec/services/github_spec.rb": [
         1,
         null,
         1,
@@ -1387,6 +1412,6 @@
         null
       ]
     },
-    "timestamp": 1488520179
+    "timestamp": 1488572896
   }
 }

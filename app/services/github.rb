@@ -20,14 +20,4 @@ class Github
       puts e.response
     end
   end
-
-  def profile_pic
-    begin
-      results = RestClient::Request.execute(method: :get, url: "https://api.github.com/users/jonathanwthom", headers: {Authorization: ENV['GITHUB_ACCESS_TOKEN']})
-      profile_pic = JSON.parse(results)['avatar_url']
-    rescue RestClient::ExceptionWithResponse => e
-      e.response
-      puts e.response
-    end
-  end
 end
