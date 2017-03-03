@@ -12,6 +12,13 @@ ActiveAdmin.register Post do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-
+  form :html => { :enctype => "multipart/form-data" } do |f|
+    f.inputs do
+      f.input :title
+      f.input :content
+      f.input :date
+    end
+    f.actions
+  end
 
 end
