@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 03 Mar 2017 19:49:34 GMT
+      - Fri, 03 Mar 2017 20:43:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4995'
+      - '4979'
       X-Ratelimit-Reset:
       - '1488573844'
       Cache-Control:
@@ -44,7 +44,7 @@ http_interactions:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       - Accept-Encoding
       Etag:
-      - W/"8190b85b14c870882fde48c10c06146d"
+      - W/"95e4f233cfa0a14e96aba72fb354ce49"
       X-Oauth-Scopes:
       - ''
       X-Accepted-Oauth-Scopes:
@@ -67,11 +67,11 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 49aa99f015c25437a7443c4d3a58cd17
+      - 9e60649f02cd840ee8baa9960690f79f
       Content-Encoding:
       - gzip
       X-Github-Request-Id:
-      - DD0E:7C8D:15EA05:1B6277:58B9C8CE
+      - 0873:7C8D:1E8F19:26191C:58B9D583
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -724,9 +724,9 @@ http_interactions:
         YKLeQdBc5SoSCYdVJIoLVQ9R85OrRCQN1p0EgiCP9GbA5kUD5yNr49FExf5l
         hlpHwfOQq+QgvKeNKRTqqQsBLh+sgv0BrwoKwXZVNALr2G0HlAVWeVCYq29J
         CI6rssMjXNUQjt6qQCi41QPrErNNaQ+NO5pQHBGRtW2gQcfIHW/jZTJrWdCv
-        PGSdxHEy7TanuOxoN1xj53QiNd7a64v3yvMYn93Q3475b9lNspo68Yyq0Mwp
-        xPQjbQrxj4Rn1PPH7GN62hQfyk/ItNzjS3ospHORdr3Qrxs55Tf5dpM+vlze
-        JuP//z9zkmnzUBAHAA==
+        PGSdxHEy7TanuOxoN1xj53QiNd7a64v3yvMYn93Q3475b9lNspo697ClH5pT
+        iOlH2hTiHwnPqOeP2cf0tCk+lJ+QabnHl/RYSOci7XqhXzdyym/y7SZ9fLm8
+        Tcb//38ASibwaFAQBwA=
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 19:49:34 GMT
+  recorded_at: Fri, 03 Mar 2017 20:43:46 GMT
 recorded_with: VCR 3.0.3
