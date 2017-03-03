@@ -32117,7 +32117,7 @@ http_interactions:
       Content-Md5:
       - 71lOVtlVad0CBHfE21fS+Q==
       X-Amz-Date:
-      - 20170303T211229Z
+      - 20170303T214529Z
       Host:
       - "<s3 bucket name>.s3-<aws region>.amazonaws.com"
       X-Amz-Content-Sha256:
@@ -32125,7 +32125,7 @@ http_interactions:
       Authorization:
       - AWS4-HMAC-SHA256 Credential=<aws access key id>/20170303/<aws region>/s3/aws4_request,
         SignedHeaders=content-md5;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date,
-        Signature=eb2a8ca32b04649c8a3e0b96e7b6ecf99410cc823d6f2c90ac49f0bb76e3bb6a
+        Signature=85c953ba16b3afe9083e9b33f93a38b277a87a670e6c1af11c2b2439873e651c
       Content-Length:
       - '1444349'
       Accept:
@@ -32136,11 +32136,11 @@ http_interactions:
       message: OK
     headers:
       X-Amz-Id-2:
-      - DfdvnwX181KwUAyYsYj3APcrygZZ2cXeBuyX725rjbOe4Oab82m7b0cei2a+KabAjTX9VhYRfLk=
+      - I8Swuc7Bp8zZzMlclQsMDwIXeuF48JDd5LrDLS5GsPeg5emlmXvwCJEwCAXLekQEyy41hY6li/g=
       X-Amz-Request-Id:
-      - A2133198B771562F
+      - A000AAFCAC0A80A4
       Date:
-      - Fri, 03 Mar 2017 21:12:31 GMT
+      - Fri, 03 Mar 2017 21:45:30 GMT
       Etag:
       - '"ef594e56d95569dd020477c4db57d2f9"'
       Content-Length:
@@ -32151,7 +32151,7 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 21:12:30 GMT
+  recorded_at: Fri, 03 Mar 2017 21:45:29 GMT
 - request:
     method: put
     uri: https://<s3 bucket name>.s3-<aws region>.amazonaws.com/projects/images/000/000/001/medium/leaf.jpeg
@@ -32785,7 +32785,7 @@ http_interactions:
       Content-Md5:
       - PkW3eRSzR/AMDZIr0+df7w==
       X-Amz-Date:
-      - 20170303T211230Z
+      - 20170303T214529Z
       Host:
       - "<s3 bucket name>.s3-<aws region>.amazonaws.com"
       X-Amz-Content-Sha256:
@@ -32793,7 +32793,7 @@ http_interactions:
       Authorization:
       - AWS4-HMAC-SHA256 Credential=<aws access key id>/20170303/<aws region>/s3/aws4_request,
         SignedHeaders=content-md5;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date,
-        Signature=74954ebb4197b6baa21f7f2b5a79e467a470dd386eda107085abbe5527a6b7d7
+        Signature=b046c9860f2fc12862258eb99f9b1a9d5d51864d3c58dbeb593cc9a01947f8dc
       Content-Length:
       - '27560'
       Accept:
@@ -32804,11 +32804,11 @@ http_interactions:
       message: OK
     headers:
       X-Amz-Id-2:
-      - NuWX59d05hT4M7HZ6rcUG+JI0iEPVHCD9UYGO8qaiLoqyVPr7h6iCE7DQZfBAKM9//g0TkWKC3w=
+      - mGOZUZGBf0FJivJ9MFlq2cJ3fEAoZ4FaUMR3JOvxuKVJJDeiA7BqSMHU3KO/YAkxQSkr+RQJRdw=
       X-Amz-Request-Id:
-      - E4903C85F59554ED
+      - 27BF14C7DF6AB74D
       Date:
-      - Fri, 03 Mar 2017 21:12:32 GMT
+      - Fri, 03 Mar 2017 21:45:30 GMT
       Etag:
       - '"3e45b77914b347f00c0d922bd3e75fef"'
       Content-Length:
@@ -32819,7 +32819,7 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 21:12:30 GMT
+  recorded_at: Fri, 03 Mar 2017 21:45:29 GMT
 - request:
     method: put
     uri: https://<s3 bucket name>.s3-<aws region>.amazonaws.com/projects/images/000/000/001/thumb/leaf.jpeg
@@ -32917,7 +32917,7 @@ http_interactions:
       Content-Md5:
       - 46aohzvZjuo6osojju4Vsg==
       X-Amz-Date:
-      - 20170303T211230Z
+      - 20170303T214529Z
       Host:
       - "<s3 bucket name>.s3-<aws region>.amazonaws.com"
       X-Amz-Content-Sha256:
@@ -32925,7 +32925,7 @@ http_interactions:
       Authorization:
       - AWS4-HMAC-SHA256 Credential=<aws access key id>/20170303/<aws region>/s3/aws4_request,
         SignedHeaders=content-md5;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date,
-        Signature=87dfbb5f408af924d130ed33eba424d92e85c25776e7ab41639ea6ba15f0fec2
+        Signature=c8bd5764b97bb5762c376626a4fb5673acb6d881a193d0bc479e7dff0db63f2d
       Content-Length:
       - '3421'
       Accept:
@@ -32936,11 +32936,11 @@ http_interactions:
       message: OK
     headers:
       X-Amz-Id-2:
-      - 5v9RQiRKdpJMmJy4vgyO6wfDSHYX77//ugjkIv3PXhEp6GWlsOfvlYu0GsBcXGzoD0L593coIOU=
+      - fztkGeiBa2aGoJOxqbQa7aS2otI7u34wLojiKGfPezrjXDuMeHsudddQVKXME9G31wy4TCbviGA=
       X-Amz-Request-Id:
-      - 430F90D112B7B758
+      - 809DD4A4146A4167
       Date:
-      - Fri, 03 Mar 2017 21:12:32 GMT
+      - Fri, 03 Mar 2017 21:45:31 GMT
       Etag:
       - '"e3a6a8873bd98eea3aa2ca238eee15b2"'
       Content-Length:
@@ -32951,5 +32951,5 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 21:12:30 GMT
+  recorded_at: Fri, 03 Mar 2017 21:45:30 GMT
 recorded_with: VCR 3.0.3
