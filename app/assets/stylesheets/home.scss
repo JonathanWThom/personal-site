@@ -28,11 +28,11 @@
   }
 }
 
-.image-panel img:hover {
+.image-panel img:hover, .image-panel img:focus {
   opacity: 0.6;
 }
 
-.image-panel img:hover + .section-title {
+.image-panel img:hover + .section-title, .image-panel img:focus + .section-title {
   display: block;
 }
 
