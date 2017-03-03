@@ -24,6 +24,13 @@ group :development, :test do
   gem 'pry'
   gem 'shoulda-matchers'
   gem 'dotenv-rails'
+  gem 'factory_girl_rails'
+  gem 'simplecov', require: false
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
