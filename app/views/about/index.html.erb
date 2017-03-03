@@ -1,22 +1,21 @@
 <% content_for(:title, "Jonathan Thom | About Me") %>
 
-<div class="page-title">
-  <h2>About Me</h2>
-</div>
+<% content_for(:page_title, "About") %>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
       <h1>Hey. I'm JT.</h1>
-      <h3>Here are some things I like:</h3>
+      <h3>I like writing code.</h3>
+
+      <h3>Here are some other things I like:</h3>
       <h4 class="center">• Laura (see photo)</h4>
-      <h4 class="center">• Writing code</h4>
       <h4 class="center">• Dogs (particulary <%= link_to 'Ernie', 'https://www.instagram.com/p/BP0nu98jnnm/?taken-by=jwthom' %>)</h4>
       <!--add show ernie photo on click function-->
       <h4 class="center">• Beer</h4>
       <h4 class="center">• Lifting weights</h4>
       <h4 class="center">• Sports</h4>
-      <h3>This site is about me, and the things I like. I hope you can add it to the list of things you like.</h3>
+      <h4>This site is a collection point for my thoughts on development (and the other things above), as well as a way to display some of the things I've created. I hope you can add it to the list of things that you like.</h4>
     </div>
     <div class="col-sm-6">
       <%= image_tag 'jonathan1.jpg', :class => 'profile-image' %>
