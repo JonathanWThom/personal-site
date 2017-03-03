@@ -5,33 +5,39 @@
 </div>
 
 <div class="container">
-  <% if @recent.kind_of?(Array) %>
-    <% @recent.each do |project| %>
-      <p><%= link_to project['name'], project['html_url'] %></p>
-    <% end %>
-  <% end %>
+  <div class="row">
+    <div class="col-sm-2">
+      <h3 class="text-left">Recently Updated</h3>
+      <% if @recent.kind_of?(Array) %>
+        <% @recent.each do |project| %>
+          <p><%= link_to project['name'], project['html_url'] %></p>
+        <% end %>
+      <% end %>
 
-  <% if @top_starred.kind_of?(Array) %>
-    <% @top_starred.each do |project| %>
-      <p><%= link_to project['name'], project['html_url'] %></p>
-    <% end %>
-  <% end %>
-
-  <h1 class="text-center">Featured Sites</h1>
-  <p class="text-center">Some complete, some not. Some deployed, others not. Make a pull request or something!</p>
-  <% @featured.each do |project| %>
-    <div class="row">
-      <div class="col-sm-6">
-        <h2><%= project.title %></h2>
-        <h3 class="text-left"><%= project.tech %></h3>
-        <h4>Collaborators: <%= project.collaborators %></h4>
-        <p><%= project.description %></p>
-        <p><%= project.github %></p>
-        <p><%= project.deployed %></p>
-      </div>
-      <div class="col-sm-6">
-        <%= image_tag project.image, :class => 'profile-image' %>
-      </div>
+      <h3 class="text-left">Starred</h3>
+      <% if @top_starred.kind_of?(Array) %>
+        <% @top_starred.each do |project| %>
+          <p><%= link_to project['name'], project['html_url'] %></p>
+        <% end %>
+      <% end %>
     </div>
-  <% end %>
+    <div class="col-sm-10">
+      <h1 class="text-left">Featured Sites</h1>
+      <% @featured.each do |project| %>
+        <div class="row">
+          <div class="col-sm-6">
+            <h2><%= project.title %></h2>
+            <h3 class="text-left"><%= project.tech %></h3>
+            <h4>Collaborators: <%= project.collaborators %></h4>
+            <p><%= project.description %></p>
+            <p><%= project.github %></p>
+            <p><%= project.deployed %></p>
+          </div>
+          <div class="col-sm-6">
+            <%= image_tag project.image, :class => 'profile-image' %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
 </div>
