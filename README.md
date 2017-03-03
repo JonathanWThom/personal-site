@@ -10,5 +10,6 @@ get its own domain
 homepage is bare
 responsive
 better about me
+add seo with dynos?
 
 mailer list for new posts?
