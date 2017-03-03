@@ -7,7 +7,8 @@ describe 'the admin path' do
     fill_in 'admin_email', :with => 'admin@admin.com'
     fill_in 'admin_password', :with => 'password'
     click_on 'Login'
-    expect(page).to have_content 'Dashboard'
+    visit admin_admins_path
+    expect(page).to have_content 'admin@admin.com'
   end
 
   it 'will create a new admin' do
