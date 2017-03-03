@@ -21,7 +21,7 @@ form :html => { :enctype => "multipart/form-data" } do |f|
     f.input :github
     f.input :deployed
     f.input :tech
-    f.input :image, hint: f.project.image? ? image_tag(f.item.photo.url, height: '100') : content_tag(:span, "Upload JPG/PNG/GIF image")
+    f.input :image, :as => :file, hint: f.project.image? ? image_tag(f.project.image.url, height: '100') : content_tag(:span, "Upload JPG/PNG/GIF image")
   end
   f.actions
   end
