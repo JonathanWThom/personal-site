@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'the projects path' do
-  it 'will create a project' do
+  it 'will create a project', vcr: true do
     admin = create(:admin)
     login_as(admin)
     visit new_admin_project_path

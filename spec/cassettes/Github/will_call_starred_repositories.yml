@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 03 Mar 2017 20:43:47 GMT
+      - Fri, 03 Mar 2017 20:51:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -35,9 +35,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4979'
+      - '4995'
       X-Ratelimit-Reset:
-      - '1488573844'
+      - '1488577791'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -67,11 +67,11 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 9e60649f02cd840ee8baa9960690f79f
+      - e14705a23c085afeff5e104b1fc3922a
       Content-Encoding:
       - gzip
       X-Github-Request-Id:
-      - 0873:7C8D:1E8F19:26191C:58B9D583
+      - 8E02:7C8B:138D7D:182C9D:58B9D746
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -728,5 +728,5 @@ http_interactions:
         iOlH2hTiHwnPqOeP2cf0tCk+lJ+QabnHl/RYSOci7XqhXzdyym/y7SZ9fLm8
         Tcb//38ASibwaFAQBwA=
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 20:43:46 GMT
+  recorded_at: Fri, 03 Mar 2017 20:51:17 GMT
 recorded_with: VCR 3.0.3

@@ -115,7 +115,7 @@
         1,
         1,
         1,
-        8,
+        11,
         null
       ],
       "/Users/JonathanThom/Desktop/personal-site/config/environment.rb": [
@@ -220,7 +220,7 @@
       "/Users/JonathanThom/Desktop/personal-site/config/initializers/active_admin.rb": [
         1,
         1,
-        9,
+        10,
         null,
         null,
         null,
@@ -1087,7 +1087,7 @@
       "/Users/JonathanThom/Desktop/personal-site/app/admin/dashboard.rb": [
         1,
         null,
-        6,
+        7,
         null,
         3,
         1,
@@ -1316,7 +1316,7 @@
         1,
         null,
         1,
-        232,
+        247,
         null,
         null,
         null,
@@ -1354,7 +1354,7 @@
         1,
         1,
         1,
-        0,
+        1,
         null,
         null,
         1,
@@ -1410,6 +1410,6 @@
         null
       ]
     },
-    "timestamp": 1488574192
+    "timestamp": 1488574339
   }
 }
