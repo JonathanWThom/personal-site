@@ -1,5 +1,13 @@
+nav bar
 add posts
 add projects
+ajax?
+testing
+readme
+look nice
+deploy
+other? all requirements
+
 fix posts upload form - make text attribute w/ migration
 fix projects styling
 full testing coverage
