@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: https://jonathan-thom.s3-us-west-2.amazonaws.com/projects/images/000/000/001/original/leaf.jpeg
+    uri: https://<s3 bucket name>.s3-<aws region>.amazonaws.com/projects/images/000/000/001/original/leaf.jpeg
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -32117,15 +32117,15 @@ http_interactions:
       Content-Md5:
       - 71lOVtlVad0CBHfE21fS+Q==
       X-Amz-Date:
-      - 20170303T205217Z
+      - 20170303T210307Z
       Host:
-      - jonathan-thom.s3-us-west-2.amazonaws.com
+      - "<s3 bucket name>.s3-<aws region>.amazonaws.com"
       X-Amz-Content-Sha256:
       - e77dd2df6158019d6364733f60187e6b6be882f8fc28a36a5b10542f6a9900e6
       Authorization:
-      - AWS4-HMAC-SHA256 Credential=AKIAJBHGXL7WA232N5XA/20170303/us-west-2/s3/aws4_request,
+      - AWS4-HMAC-SHA256 Credential=<aws access key id>/20170303/<aws region>/s3/aws4_request,
         SignedHeaders=content-md5;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date,
-        Signature=175fe10a18b840b84c0d65810fc74f3190f814d8ee13ee7726bc49f747480b51
+        Signature=84d09988bb4c5b7a352f06efb0a1df984ef65ed7e4880f6988558c47a81cfd75
       Content-Length:
       - '1444349'
       Accept:
@@ -32136,11 +32136,11 @@ http_interactions:
       message: OK
     headers:
       X-Amz-Id-2:
-      - s/BtMqA67IFvH+coH4jVUXorg+G7XTsFykCOhl1xUuUt5NBh+kUY9JiCqJd/egRvelM+/hh4tAs=
+      - 0qT4E6LMl0XIaQJSQ3FfmhD3AtqJbd7SGufUhpgqVNQAyQq7ebrb7tm+53fxuLpIkKB/mpVV3q0=
       X-Amz-Request-Id:
-      - CA0755C680281E58
+      - E7CF1041348D3FF3
       Date:
-      - Fri, 03 Mar 2017 20:52:19 GMT
+      - Fri, 03 Mar 2017 21:03:09 GMT
       Etag:
       - '"ef594e56d95569dd020477c4db57d2f9"'
       Content-Length:
@@ -32151,10 +32151,10 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 20:52:17 GMT
+  recorded_at: Fri, 03 Mar 2017 21:03:08 GMT
 - request:
     method: put
-    uri: https://jonathan-thom.s3-us-west-2.amazonaws.com/projects/images/000/000/001/medium/leaf.jpeg
+    uri: https://<s3 bucket name>.s3-<aws region>.amazonaws.com/projects/images/000/000/001/medium/leaf.jpeg
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -32785,15 +32785,15 @@ http_interactions:
       Content-Md5:
       - PkW3eRSzR/AMDZIr0+df7w==
       X-Amz-Date:
-      - 20170303T205217Z
+      - 20170303T210308Z
       Host:
-      - jonathan-thom.s3-us-west-2.amazonaws.com
+      - "<s3 bucket name>.s3-<aws region>.amazonaws.com"
       X-Amz-Content-Sha256:
       - 431dfd4356fd83b8356fe5ef055167dc3f0ec16bb8c653d77807e1b02ef401c9
       Authorization:
-      - AWS4-HMAC-SHA256 Credential=AKIAJBHGXL7WA232N5XA/20170303/us-west-2/s3/aws4_request,
+      - AWS4-HMAC-SHA256 Credential=<aws access key id>/20170303/<aws region>/s3/aws4_request,
         SignedHeaders=content-md5;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date,
-        Signature=1d3ebb25e831b1393d76d54f6210564dfce61a2a34e8ea0f9cd252eca0289688
+        Signature=440a2e053979e616b7283e7c1a4dd38f1e07e316355cd86c3a02bcb01241306d
       Content-Length:
       - '27560'
       Accept:
@@ -32804,11 +32804,11 @@ http_interactions:
       message: OK
     headers:
       X-Amz-Id-2:
-      - I2ZcQlXiJ3YQBhQBGGQk3Y7IMTgns7Tf/TsSg3tPL8mrvK85eMWRjMSdOFdob+Nh11xufKs/7j0=
+      - wRF9mq62B7k7l2qkgR81sf7YT1i7TNO5R8ULvxuYwUWPXSZ9+/lCIGErutpQXYqQY3j3XEDDWjQ=
       X-Amz-Request-Id:
-      - CDC8C0F7A3F0B467
+      - D84CF8BA386A2F91
       Date:
-      - Fri, 03 Mar 2017 20:52:19 GMT
+      - Fri, 03 Mar 2017 21:03:10 GMT
       Etag:
       - '"3e45b77914b347f00c0d922bd3e75fef"'
       Content-Length:
@@ -32819,10 +32819,10 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 20:52:18 GMT
+  recorded_at: Fri, 03 Mar 2017 21:03:08 GMT
 - request:
     method: put
-    uri: https://jonathan-thom.s3-us-west-2.amazonaws.com/projects/images/000/000/001/thumb/leaf.jpeg
+    uri: https://<s3 bucket name>.s3-<aws region>.amazonaws.com/projects/images/000/000/001/thumb/leaf.jpeg
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -32917,15 +32917,15 @@ http_interactions:
       Content-Md5:
       - 46aohzvZjuo6osojju4Vsg==
       X-Amz-Date:
-      - 20170303T205218Z
+      - 20170303T210308Z
       Host:
-      - jonathan-thom.s3-us-west-2.amazonaws.com
+      - "<s3 bucket name>.s3-<aws region>.amazonaws.com"
       X-Amz-Content-Sha256:
       - 0ce744d219135c17e8e2a31eff3bef2d3c0ded27f242872f23c6bf8a818503d6
       Authorization:
-      - AWS4-HMAC-SHA256 Credential=AKIAJBHGXL7WA232N5XA/20170303/us-west-2/s3/aws4_request,
+      - AWS4-HMAC-SHA256 Credential=<aws access key id>/20170303/<aws region>/s3/aws4_request,
         SignedHeaders=content-md5;content-type;host;x-amz-acl;x-amz-content-sha256;x-amz-date,
-        Signature=698321dd603f3b8fa970f86d055ec4a7d93c71f3fb61dbdcc4beb823e88c210b
+        Signature=42cd76a3b3a93060f4aee03f0c0b6a1d5157d2bc45a310df7d666f464ff7d3c9
       Content-Length:
       - '3421'
       Accept:
@@ -32936,11 +32936,11 @@ http_interactions:
       message: OK
     headers:
       X-Amz-Id-2:
-      - Qcim5UqszxAPyQgnY8CmszB7g66W4gD8yhcUY3AuRX4Wlrm2sShnEueyQt6dZj5RwOmAbpfkA7U=
+      - tUW7sYEMgMMmk7qDfsea1ZnKX5Sz8hR6S2u6wUFsZBQ8W6rngZP9+AHDdAE+6I8hCIi80W2ZXJM=
       X-Amz-Request-Id:
-      - EF835ADD75D9E300
+      - B0AE1DDF0ED340B1
       Date:
-      - Fri, 03 Mar 2017 20:52:20 GMT
+      - Fri, 03 Mar 2017 21:03:10 GMT
       Etag:
       - '"e3a6a8873bd98eea3aa2ca238eee15b2"'
       Content-Length:
@@ -32951,5 +32951,5 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Fri, 03 Mar 2017 20:52:18 GMT
+  recorded_at: Fri, 03 Mar 2017 21:03:09 GMT
 recorded_with: VCR 3.0.3

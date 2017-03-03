@@ -84,5 +84,10 @@ VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'
   c.hook_into :webmock
   c.configure_rspec_metadata!
-  c.filter_sensitive_data('<github access token>') { ENV['GITHUB_ACCESS_TOKEN'] } # example for filtering data
+  c.filter_sensitive_data('<github access token>') { ENV['GITHUB_ACCESS_TOKEN'] }
+  c.filter_sensitive_data('<s3 bucket name>') { ENV['S3_BUCKET_NAME'] }
+  c.filter_sensitive_data('<aws access key id>') { ENV['AWS_ACCESS_KEY_ID'] }
+  c.filter_sensitive_data('<aws secrete access key>') { ENV['AWS_SECRET_ACCESS_KEY'] }
+  c.filter_sensitive_data('<aws region>') { ENV['AWS_REGION'] }
+   # example for filtering data
 end
