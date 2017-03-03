@@ -16,6 +16,7 @@ gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resour
 gem 'devise'
 gem 'formtastic', '~> 3.0'
 gem 'rest-client'
+gem 'social-share-button'
 
 group :development, :test do
   gem 'byebug', platform: :mri

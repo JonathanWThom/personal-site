@@ -18,4 +18,13 @@ class Github
       e.response['message']
     end
   end
+
+  def profile_pic
+    begin
+      results = RestClient.get("https://api.github.com/users/jonathanwthom", headers: {"authorization": ENV['GITHUB_ACCESS_TOKEN'] })
+      profile_pic = JSON.parse(results)['avatar_url']
+    rescue RestClient::ExceptionWithResponse => e
+      e.response['message']
+    end
+  end
 end

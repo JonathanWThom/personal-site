@@ -1,7 +1,15 @@
 nav bar
+about page
 add posts
 add projects
+deploy - hook up with domain
+add dynos?
+seo
+comments or sharing or subscribing
+
 ajax?
+
+
 testing
 readme
 look nice
