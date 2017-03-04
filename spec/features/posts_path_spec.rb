@@ -11,6 +11,7 @@ describe 'the posts path' do
     click_on 'Create Post'
     expect(page).to have_content 'Post was successfully created.'
   end
+
   it 'will show an individual post' do
     2.times do
       create(:post)
