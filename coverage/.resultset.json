@@ -73,8 +73,8 @@
         null,
         null,
         1,
-        15,
-        15,
+        16,
+        16,
         null,
         null,
         null,
@@ -225,7 +225,7 @@
       "/Users/JonathanThom/Desktop/personal-site/config/initializers/active_admin.rb": [
         1,
         1,
-        10,
+        13,
         null,
         null,
         null,
@@ -1092,7 +1092,7 @@
       "/Users/JonathanThom/Desktop/personal-site/app/admin/dashboard.rb": [
         1,
         null,
-        7,
+        9,
         null,
         3,
         1,
@@ -1140,12 +1140,12 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
         null,
-        0,
+        1,
         null,
         null,
         null
@@ -1155,11 +1155,11 @@
         1,
         null,
         1,
+        5,
+        null,
+        null,
+        1,
         2,
-        null,
-        null,
-        1,
-        1,
         null,
         null,
         null
@@ -1326,7 +1326,7 @@
         1,
         null,
         1,
-        247,
+        282,
         null,
         null,
         null,
@@ -1338,6 +1338,16 @@
         1,
         null,
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         1,
         1,
         2,
@@ -1375,11 +1385,7 @@
         null
       ],
       "/Users/JonathanThom/Desktop/personal-site/spec/models/admin_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
+
       ],
       "/Users/JonathanThom/Desktop/personal-site/spec/models/post_spec.rb": [
         1,
@@ -1420,6 +1426,6 @@
         null
       ]
     },
-    "timestamp": 1488584379
+    "timestamp": 1488585984
   }
 }

@@ -6,6 +6,7 @@ class Github
     rescue RestClient::ExceptionWithResponse => e
       e.response
       puts e.response
+      ## failure works, but hard to test with spec as there are no arguments to give
     end
   end
 
@@ -16,6 +17,7 @@ class Github
     rescue RestClient::ExceptionWithResponse => e
       e.response
       puts e.response
+        ## failure works, but hard to test with spec as there are no arguments to give
     end
   end
 end
