@@ -4,7 +4,7 @@ A collection of blog posts, projects, and a little bit about me.
 
 ## Set Up
 
-Well, it would be weird to clone MY website, so you might just want to visit it at (jonathanthom.com)[http://www.jonathanthom.com/]. But if really want to clone it, you could do the following:
+Well, it would be weird to clone MY website, so you might just want to visit it at [jonathanthom.com](http://www.jonathanthom.com/). But if really want to clone it, you could do the following:
 
 1. Clone it.
 2. ```bundle install```
