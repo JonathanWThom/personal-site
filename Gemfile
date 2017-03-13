@@ -18,6 +18,7 @@ gem 'devise'
 gem 'formtastic', '~> 3.0'
 gem 'rest-client'
 gem 'social-share-button'
+gem 'auto_html'
 
 group :development, :test do
   gem 'byebug', platform: :mri

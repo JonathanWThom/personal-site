@@ -1,6 +1,6 @@
 class Post < ActiveRecord::Base
   validates :title, :content, :date, :presence => true
-
+  
   def to_param
     title
   end
