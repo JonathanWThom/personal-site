@@ -19,6 +19,9 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+.hidden {
+  display: none;
+}
 .post {
   white-space: pre-line;
 }
