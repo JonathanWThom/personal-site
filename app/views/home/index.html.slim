@@ -1,0 +1,21 @@
+- content_for(:title, "Jonathan Thom")
+- content_for(:page_title, "Welcome")
+.row.no-gutter
+  = link_to about_index_path do
+    .col-sm-4.image-panel
+      = image_tag 'jonathan.jpg'
+      .section-title
+        h1
+          | About Me
+  = link_to posts_path do
+    .col-sm-4.image-panel
+      = image_tag('olympics.jpg')
+      .section-title
+        h1
+          | Blog
+  = link_to projects_path do
+    .col-sm-4.image-panel
+      = image_tag 'whiteboard.jpg'
+      .section-title
+        h1
+          | Projects

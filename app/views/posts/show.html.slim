@@ -1,0 +1,21 @@
+- content_for(:title, "Jonathan Thom | Blog")
+.page-title
+  h2.post-page
+    = link_to 'Blog', posts_path
+.container
+  .row
+    .featured.col-sm-10.col-sm-push-2
+      h2
+        = @featured.title
+      h4
+        = @featured.date
+      hr
+      p.post
+        = raw @featured_content
+      = social_share_button_tag(@featured.title, :image => 'images/jonathan-ernie.jpg', :'data-type' => 'photo')
+    .col-sm-2.col-sm-pull-10
+      h3.text-left
+        | Other Posts
+      - @posts.each do |post|
+        p
+          = link_to post.title, post_path(post)

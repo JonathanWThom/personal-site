@@ -1,0 +1,32 @@
+- content_for(:title, "Jonathan Thom | About Me")
+- content_for(:page_title, "About")
+.container
+  .row
+    .col-sm-6
+      h2
+        | Hey. I'm JT.
+      hr
+      h3.text-left
+        | I like writing code.
+      h3
+
+      h4
+        | I became a developer because I wanted to spend all day solving hard problems and making things work (really). My preferred languages are Ruby and JavaScript, but I'm always looking to learn new things!
+      h3.text-left
+        | Here are some other things I like:
+      h4
+        | • Laura (see photo)
+      h4
+        | • Dogs (particulary 
+        = link_to 'Ernie', 'https://www.instagram.com/p/BP0nu98jnnm/?taken-by=jwthom'
+        | )
+      h4
+        | • Beer
+      h4
+        | • Lifting weights
+      h4
+        | • Sports
+      h4
+        | This site is a collection point for my thoughts on development (and the other things above), as well as a way to display some of the things I've created. I hope you can add it to the list of things that you like.
+    .col-sm-6
+      = image_tag 'jonathan1.jpg', :class => 'profile-image'

@@ -19,6 +19,7 @@ gem 'formtastic', '~> 3.0'
 gem 'rest-client'
 gem 'social-share-button'
 gem 'auto_html'
+gem 'slim-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
