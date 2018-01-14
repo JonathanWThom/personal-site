@@ -11,5 +11,9 @@
     "stimulus": "^0.9.0",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.10.0"
+  },
+  "scripts": {
+    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
+    "heroku-postbuild": "npm run webpack:deploy"
   }
 }
