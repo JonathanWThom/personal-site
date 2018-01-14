@@ -1,19 +1,30 @@
 - content_for(:title, "Jonathan Thom | Projects")
-- content_for(:page_title, "Projects")
-.container
+
+.container.page-content
   .row
     .col-sm-10.col-sm-push-2
-      h1.text-left
+      h2.text-left
+        | Open Source Contributions
+      p
+        = link_to "Audited", "https://github.com/collectiveidea/audited"
+      p
+        = link_to "Faker", "https://github.com/stympy/faker"
+      p
+        = link_to "Loomio", "https://github.com/loomio/loomio"
+
+      hr
+
+      h2.text-left
         | Featured Sites
       - @featured.each do |project|
         .row
           .col-sm-6
-            h2
+            h3
               = project.title
-            h3.text-left
+            h4.text-left
               = project.tech
-            h4
-              | Collaborators: 
+            h5
+              | Collaborators:
               = project.collaborators
             p.post
               = project.description

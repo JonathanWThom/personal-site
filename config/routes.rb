@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   root :to => 'home#index'
   resources :posts, :path => 'blog'
-  resources :about, :only => [:index]
+  resources :contact, :only => [:index]
   resources :projects
 end

@@ -1,0 +1,16 @@
+.navigation class=navigation_class
+  .hamburger.toggle-nav &#9776;
+  .close-btn.toggle-nav &times;
+  = active_link_to "Jonathan Thom",
+  root_path,
+  active: :exclusive,
+  class: "nav-link"
+  = active_link_to "Blog", posts_path,
+    class: "nav-link"
+  = active_link_to "Projects", projects_path, class: "nav-link"
+  = active_link_to "Contact", contact_index_path, class: "nav-link"
+
+javascript:
+  $("body").on("click", ".toggle-nav", function(){
+    $(".navigation").toggleClass("overlay");
+  })

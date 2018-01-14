@@ -20,6 +20,8 @@ gem 'rest-client'
 gem 'social-share-button'
 gem 'auto_html'
 gem 'slim-rails'
+gem 'webpack-rails'
+gem 'active_link_to'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -35,6 +37,8 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'vcr'
   gem 'webmock'
+  gem 'pry-remote'
+  gem 'foreman'
 end
 
 group :development do
