@@ -390,6 +390,7 @@ DEPENDENCIES
   pry-remote
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
+  redcarpet
   rest-client
   rspec-rails
   sass-rails (~> 5.0)

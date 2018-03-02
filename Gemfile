@@ -22,6 +22,7 @@ gem 'auto_html'
 gem 'slim-rails'
 gem 'webpack-rails'
 gem 'active_link_to'
+gem 'redcarpet'
 
 group :development, :test do
   gem 'byebug', platform: :mri
