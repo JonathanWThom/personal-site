@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   include ApplicationHelper
+
   def index
     @featured = Post.last
     @posts = Post.non_featured(@featured)
