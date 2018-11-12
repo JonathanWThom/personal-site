@@ -4,19 +4,6 @@
   .row
     .col-sm-10.col-sm-push-2
       h2.text-left
-        | Open Source Contributions
-      p
-        = link_to "Audited", "https://github.com/collectiveidea/audited"
-      p
-        = link_to "Faker", "https://github.com/stympy/faker"
-      p
-        = link_to "Loomio", "https://github.com/loomio/loomio"
-      p
-        = link_to "Ruby_HTML (I made this)", "https://github.com/JonathanWThom/ruby_html" 
-
-      hr
-
-      h2.text-left
         | Featured Sites
       - @featured.each do |project|
         .row
@@ -33,6 +20,30 @@
               = link_to project.deployed, project.deployed
           .col-sm-6
             = image_tag project.image.url, :class => 'profile-image'
+        hr
+
+        h2.text-left
+          | Utilities & Gems
+        p
+          = link_to "Ruby_HTML", "https://github.com/JonathanWThom/ruby_html"
+        p A Ruby gem that allows you to write "object oriented HTML."
+
+        p
+          = link_to "Doggo", "https://github.com/JonathanWThom/doggo"
+        p Go client for the Dog API. Makes requests easy!
+
+        hr
+
+        h2.text-left
+          | Open Source Contributions
+        p
+          = link_to "Audited", "https://github.com/collectiveidea/audited"
+        p
+          = link_to "Faker", "https://github.com/stympy/faker"
+        p
+          = link_to "Loomio", "https://github.com/loomio/loomio"
+
+
         hr
     .col-sm-2.col-sm-2.col-sm-pull-10
       h3.text-left
