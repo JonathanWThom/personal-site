@@ -26,6 +26,7 @@ gem 'slim-rails'
 gem 'webpack-rails'
 gem 'active_link_to'
 gem 'redcarpet'
+gem 'friendly_id'
 
 group :development, :test do
   gem 'byebug', platform: :mri
