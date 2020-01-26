@@ -6,11 +6,10 @@
       h2
         = @featured.title
       h4
-        = @featured.date
+        = @featured.created_at.strftime("%-m.%-d.%Y")
       hr
       p.post
-        - cache do
-          = raw @featured_content
+        = raw @featured_content
       = social_share_button_tag(@featured.title, :image => 'images/jonathan-ernie.jpg', :'data-type' => 'photo')
     .col-sm-2.col-sm-pull-10
       h3.text-left

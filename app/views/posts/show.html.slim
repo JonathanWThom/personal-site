@@ -6,7 +6,7 @@
       h2
         = @featured.title
       h4
-        = @featured.date
+        = @featured.created_at.strftime("%-m.%-d.%Y")
       hr
       p.post
         = raw @featured_content
