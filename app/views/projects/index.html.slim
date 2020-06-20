@@ -4,29 +4,32 @@
   .row
     .col-sm-10.col-sm-push-2
       h2.text-left
-        | Featured Sites
-      - @featured.each do |project|
-        .row
-          .col-sm-6
-            h3
-              = project.title
-            h4.text-left
-              = project.tech
-            p.post
-              = project.description
-            p
-              = link_to 'Github', project.github
-            p
-              = link_to project.deployed, project.deployed
-          .col-sm-6
-            = image_tag project.image.url, :class => 'profile-image'
-        hr
+        | Sites & Apps
+
+      p
+        = link_to "Link Saver", "https://linksaver.app/"
+      p Personal link aggregator. Ruby on Rails.
+
+      p
+        = link_to "MyTab", "https://my-tab.herokuapp.com/"
+      p Judgement free alcohol consumption tracker. Golang/React.
+
+      p
+        = link_to "Markit Predictor", "https://markit-predictor.herokuapp.com/"
+      p Day to day stock market predictions, powered by ML. Ruby on Rails.
+
+      p
+        = link_to "Hilary and Adam", "https://hilary-and-adam.com/"
+      p Wedding site. React.
+
+      hr
 
       h2.text-left
-        | Utilities & Gems
+        | Packages & Utilities
+
       p
-        = link_to "Ruby_HTML", "https://github.com/JonathanWThom/ruby_html"
-      p A Ruby gem that allows you to write "object oriented HTML."
+        = link_to "Putstar", "https://github.com/JonathanWThom/putstar"
+      p Gem to add dividers around your `puts` statements to help them stand out.
 
       p
         = link_to "Doggo", "https://github.com/JonathanWThom/doggo"
@@ -34,7 +37,15 @@
 
       p
         = link_to "Opener", "https://github.com/JonathanWThom/opener"
-      p Command line utility in Go. Quickly open and close the applications you use every day.
+      p CLI utility for quickly opening and closing the applications you use every day.
+
+      p
+        = link_to "Quack", "https://github.com/JonathanWThom/quack"
+      p CLI for tweet-sized private journal entries.
+
+      p
+        = link_to "Covid", "https://github.com/JonathanWThom/covid"
+      p Ruby gem providing JSON wrapper around Johns Hopkins dataset for COVID-19.
 
       hr
 
