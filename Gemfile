@@ -27,6 +27,7 @@ gem "webpack-rails"
 gem "active_link_to"
 gem "redcarpet"
 gem "friendly_id"
+gem "airbrake"
 
 group :development, :test do
   gem "byebug", platform: :mri
