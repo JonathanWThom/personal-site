@@ -1,5 +1,5 @@
 ActiveAdmin.setup do |config|
-  config.before_filter do
+  config.before_action do
     params.permit!
   end
   # == Site Title
