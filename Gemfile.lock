@@ -391,8 +391,6 @@ GEM
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    webpack-rails (0.9.11)
-      railties (>= 3.2.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -450,7 +448,6 @@ DEPENDENCIES
   vcr
   web-console
   webmock
-  webpack-rails
 
 RUBY VERSION
    ruby 3.0.0p0
