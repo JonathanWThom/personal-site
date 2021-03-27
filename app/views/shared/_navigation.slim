@@ -11,6 +11,14 @@
   = active_link_to "Contact", contact_index_path, class: "nav-link"
 
 javascript:
-  $("body").on("click", ".toggle-nav", function(){
-    $(".navigation").toggleClass("overlay");
-  })
+  document.querySelectorAll(".toggle-nav").forEach(element => {
+    element.addEventListener("click", () => {
+      const navigation = document.querySelector(".navigation");
+      if (navigation.classList.contains("overlay")) {
+        navigation.classList.remove("overlay");
+      } else {
+        navigation.classList.add("overlay");
+      }
+    });
+  });
+

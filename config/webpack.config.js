@@ -52,7 +52,7 @@ if (production) {
     headers: { 'Access-Control-Allow-Origin': '*' }
   };
   config.output.publicPath = '//localhost:' + devServerPort + '/webpack/';
-  config.devtool = 'cheap-module-eval-source-map';
+  //config.devtool = 'cheap-module-eval-source-map';
 }
 
 module.exports = config;
