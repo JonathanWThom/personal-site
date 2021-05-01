@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.0.0"
+ruby "3.0.1"
 
 gem "rails", "~> 6.1.3.1"
 gem "pg", "~> 1.1"
@@ -11,7 +11,7 @@ gem "coffee-rails", "~> 4.2"
 gem "jquery-rails"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
-gem "bootstrap-sass", "~> 3.3.6"
+gem "bootstrap-sass"
 gem "paperclip", "~> 5.2.0"
 gem "aws-sdk", "~> 2.3"
 gem "activeadmin", git: "https://github.com/activeadmin/activeadmin"
