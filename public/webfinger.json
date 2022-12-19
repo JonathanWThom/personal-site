@@ -1,0 +1,23 @@
+{
+  "subject": "acct:jonathanthom@mas.to",
+  "aliases": [
+    "https://mas.to/@jonathanthom",
+    "https://mas.to/users/jonathanthom"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mas.to/@jonathanthom"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mas.to/users/jonathanthom"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mas.to/authorize_interaction?uri={uri}"
+    }
+  ]
+}
